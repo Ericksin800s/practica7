@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    color: red;
+    font-family:"Rowdies Static";
+    font-size:40px
+   
+    }
+    h2{
+        color: rgb(152, 35, 35);
+        font-family:"Lilita one";
+        font-size: 30px;
+    }
+    h3{
+        color:rgb(1, 1, 102) ;
+        font-family: "Bangers";
+        font-size:50px;
+
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
