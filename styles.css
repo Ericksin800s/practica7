@@ -35,35 +35,15 @@ h1{
         height: auto;
         border-radius: 10px;
     }
-
-    @media screen (min-width: 400px){
-        body{
-            background-color: red;
-            
-        }
-        h1{
-            color:brown;
-        }
-        
+      /* Corrección en la sintaxis de @media */
+  @media screen and (min-width: 400px) {
+    body { 
+      background-color: rgb(204, 0, 255);
     }
-
-    @media screen (min-width: 800px){
-        body{
-            background-color: red;
-            
+  }
+    /* Corrección en la sintaxis de @media */
+    @media screen and (min-width: 80px) {
+        body { 
+          background-color: rgb(131, 196, 12);
         }
-        h1{
-            color:rgb(29, 202, 60);
-        }
-        
-    }
-    @media screen (min-width: 1000px){
-        body{
-            background-color: red;
-            
-        }
-        h1{
-            color:brown;
-        }
-        
-    }
+      }
